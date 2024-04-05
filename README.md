@@ -13,9 +13,9 @@ Linked Lists, Queues, and Stacks are user defined Linear Data Structures.
 #### LinkedList.py
 The LinkedList Data Structure is implemented in this file which handles an unordered list. Here, the nth node from the end of the Linked List is getting deleted and n=2. This is done by having a fast and slow pointer. A dummy node is also used to point to the head of the list. The slow pointer points to the dummy node and the fast one to the head of the Linked List. The fast pointer moves 2 places ahead and there will be a gap of 2 between the fast and slow pointers so that when the fast pointer reaches the end of the list, the 2nd to last node can be deleted.
 #### Queue.py
-The Queue Data Structure is used in this code.
+The Queue Data Structure is used in this code. Here, the output shows 2 different queues which are the main queue and maximum queue respectively. The main queue is given and through each iteration the maximum queue gets appended the maximum values from the main queue. This means that if the values in front of each specific value are de-queued and the value is the maximum from the rest of the main queue, then that value would get added to the max queue.
 #### Stack.py
-This file makes use of the Stack Data Structure.
+This file makes use of the Stack Data Structure. The code is a calculator that takes a post-fix expression as the input. Post fix is when there is an operator after the 2 operands. A stack is used to add the numbers on it and it does it accordingly to which operator is used and at the end the leftover numbers on the stack are sumed up to get the final result.
 ## Non-Linear Data Structures
 Binary Trees and Graphs are examples of Non-Linear Data Structures and that are used here.
 ### Binary Tree
