@@ -1,5 +1,5 @@
 # Data Structures
-This repository contains the different Data Structures there are and demonstrates the Linear Data Structures and Non-Linear Data Structures. The Data Structures that were used in all the different files here were Lists, Dictionaries, Linked Lists, Queues, Stacks, Binary Trees, and Graphs. Each file uses a different Data Structure and the program does something accordingly to the Data Structure used.
+This repository contains the different Data Structures there are and demonstrates the Linear Data Structures and Non-Linear Data Structures. The Data Structures that were used in all the different files here were Lists, Dictionaries, Linked Lists, Queues, Stacks, Binary Trees, and Graphs. Each file uses a different Data Structure and the program does something accordingly with the Data Structure used.
 ## Linear Data Structures
 Lists, Dictionaries, Linked Lists, Queues, and Stacks are the Linear Data Structures used here. Some of them are Built in and some are User Defined.
 ### Built in
@@ -25,4 +25,4 @@ This code does a check of constraints on the nodes to see if the Binary Tree is 
 #### InOrderTraversal.py
 This code checks if the Binary Tree is a Binary Search Tree by doing In Order Traversal. This means that the nodes should be going in ascending order and if this is not the case somewhere along the Tree, then it isn't a Binary Search Tree. The output of this file returns whether it's a Binary Search Tree or not and if there is a Binary Search Tree, then it also returns the List of the Tree Traversal.
 ### Graph.py
-This code makes use of the Graph Data Structure. It does a Depth First Search on a Graph iteratively and starts on Node 0. A stack is used for popping the nodes out after there is no deeper node. The output is a List of the DFS of the Graph. The Graph used is in the image provided called ...
+This code makes use of the Graph Data Structure. It does a Depth First Search on a Graph iteratively and starts on Node 0. A stack is used for popping the nodes out after there is no deeper node. The output is a List of the DFS of the Graph. The Graph used in the code is visually showed in the image provided called Graph.png.
