@@ -11,7 +11,7 @@ A list is generally the most used of all the Data Structures and this file makes
 ### User Defined
 Linked Lists, Queues, and Stacks are user defined Linear Data Structures.
 #### LinkedList.py
-The LinkedList Data Structure is implemented in this file.
+The LinkedList Data Structure is implemented in this file which handles an unordered list. Here, the nth node from the end of the Linked List is getting deleted and n=2. This is done by having a fast and slow pointer. A dummy node is also used to point to the head of the list. The slow pointer points to the dummy node and the fast one to the head of the Linked List. The fast pointer moves 2 places ahead and there will be a gap of 2 between the fast and slow pointers so that when the fast pointer reaches the end of the list, the 2nd to last node can be deleted.
 #### Queue.py
 The Queue Data Structure is used in this code.
 #### Stack.py
