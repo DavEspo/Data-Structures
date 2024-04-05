@@ -21,7 +21,7 @@ Binary Trees and Graphs are examples of Non-Linear Data Structures and that are 
 ### Binary Tree
 This folder contains 2 files which are ConstraintCheck.py and InOrderTraversal.py which make use of the Binary Tree Data Structure.
 #### ConstraintCheck.py
-
+This code does a check of constraints on the nodes to see if the Binary Tree is a Binary Search Tree. A Binary Search Tree is one in which the left child node is less than the root and the right child node is greater than the node and all child nodes regardless of the depth are supposed to be less on the left side and greater on the right side.
 #### InOrderTraversal.py
 
 ### Graph.py
